@@ -37,7 +37,7 @@ import com.rocketseat.nlw.nearby.ui.theme.RedBase
 import com.rocketseat.nlw.nearby.ui.theme.Typography
 
 @Composable
-fun NearbtMarketCard(
+fun NearbyMarketCard(
     modifier: Modifier = Modifier,
     market: Market,
     onClick: (Market) -> Unit
@@ -104,7 +104,7 @@ fun NearbtMarketCard(
 @Preview
 @Composable
 private fun NearbyMarketCardPreview() {
-    NearbtMarketCard(
+    NearbyMarketCard(
         modifier = Modifier.fillMaxWidth(),
         market = Market(
             id = "012576ea-4441-4b8a-89e5-d5f32104c7c4",
